@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syria</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Syria - A Proud Nation</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="damascus.html">Damascus</a></li>
+                <li><a href="aleppo.html">Aleppo</a></li>
+                <li><a href="cities.html">Other Syrian Cities</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>General Information about Syria</h2>
+            <p>Syria is known for its rich history and vibrant culture. From the ancient city of Palmyra to the bustling streets of Damascus, Syria has long been a cultural and historical hub in the Middle East.</p>
+            <img src="syrianMap.jpg" alt="Map of Syria" />
+            <ul>
+                <li>Syria is home to some of the world’s oldest cities.</li>
+                <li>The country boasts ancient monuments, UNESCO sites, and rich traditions.</li>
+                <li>Syria is known for its warm hospitality and strong sense of community.</li>
+            </ul>
+            <p>Despite facing many challenges, Syria remains a symbol of resilience and strength for its people.</p>
+        </section>
+
+        <section>
+            <h2>Syria's Achievements and Contributions</h2>
+            <p>The Syrian people have made countless contributions to human civilization, spanning millennia. These achievements span a wide range of fields, including history, culture, science, architecture, and literature.</p>
+
+            <h3>Historical and Cultural Contributions</h3>
+            <ul>
+                <li><strong>Ancient Civilizations:</strong> Syria is home to some of the earliest human settlements, with cities like Ebla, Mari, and Ugarit being centers of trade, culture, and learning.</li>
+                <li><strong>Invention of the Alphabet:</strong> The Ugaritic alphabet, discovered in modern-day Syria, is one of the earliest forms of written language, influencing many subsequent alphabet systems.</li>
+                <li><strong>Palmyra:</strong> The ancient city of Palmyra, a UNESCO World Heritage site, was a crossroads of culture and commerce in the ancient world. Its monumental ruins are a testament to Syria's historical significance.</li>
+                <li><strong>Syrian Cuisine:</strong> Syrian cuisine has influenced much of the Middle East, with dishes such as hummus, falafel, and kibbeh gaining global popularity.</li>
+            </ul>
+
+            <h3>Scientific and Intellectual Achievements</h3>
+            <ul>
+                <li><strong>Mathematics and Astronomy:</strong> Syrian scholars have contributed to mathematics and astronomy. Notably, the Syrian astronomer Ibn al-Shatir, who worked in the 14th century, is credited with helping to reform the astronomical models that laid the foundation for modern science.</li>
+                <li><strong>Arabic Literature:</strong> Syria has produced some of the most important poets, writers, and intellectuals in the Arab world, including Nizar Qabbani, one of the most famous poets of the 20th century.</li>
+            </ul>
+
+            <h3>Modern Achievements</h3>
+            <ul>
+                <li><strong>Resilience During Adversity:</strong> The Syrian people have shown immense resilience during difficult times, particularly during the ongoing civil war. Despite hardships, Syrians continue to rebuild their lives and communities.</li>
+                <li><strong>Refugee Support:</strong> Syrians who have fled the country have made significant contributions in their new communities, contributing to the culture, economy, and society of the countries where they have found refuge.</li>
+            </ul>
+
+            <p>Through war, displacement, and adversity, the spirit of the Syrian people remains unbroken. They continue to hold on to their rich cultural heritage, sharing it with the world and contributing to the global community.</p>
+        </section>
+
+        <section>
+            <h2>Contact Us</h2>
+            <form id="contactForm" action="#" method="POST">
+
+                <!-- Name Input -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Your full name">
+
+                <!-- Email Input -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Your email address">
+
+                <!-- Radio Buttons -->
+                <fieldset>
+                    <legend>Gender:</legend>
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                </fieldset>
+
+                <!-- Checkboxes -->
+                <fieldset>
+                    <legend>Hobbies:</legend>
+                    <label for="reading">Reading</label>
+                    <input type="checkbox" id="reading" name="hobbies" value="reading">
+                    <label for="traveling">Traveling</label>
+                    <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+                    <label for="sports">Sports</label>
+                    <input type="checkbox" id="sports" name="hobbies" value="sports">
+                </fieldset>
+
+                <!-- Selection List (Dropdown) -->
+                <label for="city">City:</label>
+                <select id="city" name="city">
+                    <option value="damascus">Damascus</option>
+                    <option value="aleppo">Aleppo</option>
+                    <option value="latakia">Latakia</option>
+                    <option value="homs">Homs</option>
+                </select>
+
+                <!-- Numeric Input with Range and Steps -->
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="18" max="100" step="1" value="25" required>
+
+                <!-- Date Input -->
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+
+                <!-- Time Input -->
+                <label for="appointment">Preferred Time:</label>
+                <input type="time" id="appointment" name="appointment">
+
+                <!-- Text Area -->
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Enter your message here"></textarea>
+
+                <!-- Fieldset for Address Section -->
+                <fieldset>
+                    <legend>Address:</legend>
+                    <label for="address">Street Address:</label>
+                    <input type="text" id="address" name="address" placeholder="123 Main St" required>
+
+                    <label for="zipcode">Zip Code:</label>
+                    <input type="text" id="zipcode" name="zipcode" required>
+                </fieldset>
+
+                <!-- Action (empty) -->
+                <div class="empty-action"></div>
+
+                <!-- Submit and Reset Buttons -->
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+
+        <section id="joke-section">
+            <h3>And now for a joke:</h3>
+            <p><strong>Why don’t eggs tell jokes?</strong></p>
+            <p><em>Because they might crack up!</em></p>
+
+    </main>
+
+    <footer>
+        <p>Learn more about Syria: <a href="https://en.wikipedia.org/wiki/Syria" target="_blank">Wikipedia</a></p>
+    </footer>
+    
+</body>
+</html>
